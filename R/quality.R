@@ -1,4 +1,5 @@
 #' A dataframe of quality scores for companies listed in the Russell 3000
+#' 
 #' Displays overall quality scores as well as the scores for profitability, 
 #' growth, safety, and payouts. Companies are sorted in order of quality 
 #' score, with NAs stored at the end of the data set.
