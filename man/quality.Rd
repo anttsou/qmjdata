@@ -3,10 +3,7 @@
 \docType{data}
 \name{quality}
 \alias{quality}
-\title{A dataframe of quality scores for companies listed in the Russell 3000
-Displays overall quality scores as well as the scores for profitability,
-growth, safety, and payouts. Companies are sorted in order of quality
-score, with NAs stored at the end of the data set.}
+\title{A dataframe of quality scores for companies listed in the Russell 3000}
 \format{A data frame with 2999 rows and 7 variables
 \itemize{
    \item quality = class \code{"numeric"}.
@@ -16,10 +13,11 @@ score, with NAs stored at the end of the data set.}
    \item payouts = class \code{"numeric"}.
  }}
 \description{
-If partial information exists (i.e., a profitability score was able to
-be calculated), then those scores are kept for that company, even if
-insufficient information exists to produce a quality score. More
-details may be found on the technical vignette.
+Displays overall quality scores as well as the scores for profitability,
+growth, safety, and payouts. Companies are sorted in order of quality
+score, with NAs stored at the end of the data set. For a description of
+the Russell 3000 index, as well as why it was used for this package,
+see \code{\link{companies}}. Last updated 10/10/2015.
 }
 \details{
 The quality data set stores quality and component scores for the
@@ -32,25 +30,10 @@ may not have sufficient information to provide one or more component
 scores, in which case those companies can still be found at the end
 of the data set, with NA's making up any data that cannot be found.
 
-The Russell 3000 Index is an equity index that tracks the performance
-of the "3000" (this number may actually vary from year to year, but
-is always in the neighborhood of 3000) largest US companies as measured
-by market cap. The component companies that make up this index are
-reconstituted once a year, usually between May and June. At this
-reconstitution, all companies are reranked based on their market caps
-for the year, and any companies which become "ineligible" by, for
-example, going bankrupt, becoming acquired, or becoming private,
-are replaced at this time.
-
-This Index was chosen because the majority of the information
-used in this package relies on data sources that are US-centric,
-in addition to giving reasonable output by using companies which
-are at least of sufficient size to produce less erroneous items
-(such as a tiny company doubling in profitability, though the
-actual change is very small in magnitude) as well as producing
-items which are more likely to interest the user.
-
-Last updated: January 2015
+If partial information exists (i.e., a profitability score was able to
+be calculated), then those scores are kept for that company, even if
+insufficient information exists to produce a quality score. More
+details may be found on the technical vignette.
 }
 \examples{
 head(qmjdata::quality,10)

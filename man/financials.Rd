@@ -39,8 +39,10 @@ for the past four years}
 Google Finance, accessed through quantmod
 }
 \description{
-A data frame containing all financial statements (balancesheets,
+A data frame containing all annual financial statements (balancesheets,
 cashflows, and income statements) for the past four years if available.
+For a description of the Russell 3000 index, as well as why it was used
+for this package, see \code{\link{companies}}. Last updated 10/10/2015.
 }
 \details{
 Some companies may store "weird" data, such as having information solely
@@ -54,29 +56,11 @@ with their order. For example, GOOG may have data from 2013.1, 2013.2,
 remaining years are also suffixed for convenience.
 
 The main purpose of financials is to provide key information for each
-company in order to calculate each of the component scores of quality
+company in order to calculate each of the quality component scores
 (profitability, growth, safety, and payouts). For every ticker in the
 \code{\link{companies}} data set, financials will try to store the most
 recent four years of annual data, though this may vary based on
 availability.
-
-The Russell 3000 Index is an equity index that tracks the performance
-of the "3000" (this number may actually vary from year to year, but
-is always in the neighborhood of 3000) largest US companies as
-measured by market cap. The component companies that make up this
-index are reconstituted once a year, usually between May and June. At
-this reconstitution, all companies are reranked based on their market
-caps for the year, and any companies which become "ineligible" by,
-for example, going bankrupt, becoming acquired, or becoming private,
-are replaced at this time.
-
-This Index was chosen because the majority of the information used
-in this package relies on data sources that are US-centric, in
-addition to giving reasonable output by using companies which are at
-least of sufficient size to produce less erroneous items (such as a
-tiny company doubling in profitability, though the actual change is
-very small in magnitude) as well as producing items which are more
-likely to interest the user.
 }
 \examples{
 financials <- qmjdata::financials

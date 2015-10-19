@@ -32,21 +32,19 @@ become "ineligible" by,for example, going bankrupt,
 becoming acquired, or becoming private, are replaced at
 this time.
 
-This Index was chosen because the majority of the
-information used in this package relies on data sources
-that are US-centric, in addition to giving reasonable
-output by using companies which are at least of sufficient
-size to produce less erroneous items (such as a tiny company
-doubling in profitability, though the actual change is very
-small in magnitude) as well as producing items which are more
-likely to interest the user.
+This Index was chosen due to the size of its component
+companies (which mitigates the likelihood of erroneous
+items, such as a tiny company doubling in profitability
+despite there being little absolute change), this package's
+reliance on US-centric data sources, and to produce items which
+are more likely to interest the user.
 
 Companies crucially provides tickers to many functions in the
 package, allowing the package to connect financial statements
 and price information to a specific company. It is also the
 basis of the many "get" functions of the package, which retrieves
-and then formats data from the web. Companies is the "base"
-data that produces financials, prices, and ultimately
+and then formats data from the web. The Companies data set is the
+"base" data that produces financials, prices, and ultimately
 quality scores.
 }
 \examples{
