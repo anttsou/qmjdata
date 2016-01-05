@@ -6,7 +6,7 @@
 #' the S&P 500 (uniquely taken from Yahoo finance), to serve as a 
 #' benchmark. For a description of the Russell 3000 index, as well as 
 #' why it was used for this package, see \code{\link{companies}}.
-#' Last updated 10/10/2015.
+#' Last updated 2016/01/05.
 #' 
 #' Prices is used to calculate the safety score of companies, and
 #' stores closing stock prices and price returns for every company 
@@ -17,7 +17,7 @@
 #' which may cover one day or several depending on the company and 
 #' what day is being considered.
 #' 
-#' @format A data frame with 1,475,934 rows and 4 variables
+#' @format A data frame with roughly 1,500,000 rows and 4 variables
 #' \itemize{
 #'    \item ticker = Company ticker, of class \code{"character"}.
 #'    \item date = Date in format YYYY-MM-DD, of class \code{"character"}.

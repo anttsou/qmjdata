@@ -1,8 +1,8 @@
 #' A list of all companies in the Russell 3000 Index
 #'
 #' Stores the names and tickers for all companies in the 
-#' Russell 3000 Index as of January 2015.The list from 
-#' which the data was culled was last updated 6/27/2014.
+#' Russell 3000 Index as of January 2016.The list from 
+#' which the data was culled was last updated 2015/06/26.
 #' 
 #' The Russell 3000 Index is an equity index that tracks 
 #' the performance of the "3000" (this number may actually 
@@ -31,7 +31,7 @@
 #' "base" data that produces financials, prices, and ultimately 
 #' quality scores.
 #' 
-#' @format A data frame with 2999 rows and 2 variables.
+#' @format A data frame with approximately 3000 rows and 2 variables.
 #' \itemize{
 #'    \item name = The name of the company. Of class 
 #'    \code{"character"}.

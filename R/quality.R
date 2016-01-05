@@ -4,7 +4,7 @@
 #' growth, safety, and payouts. Companies are sorted in order of quality 
 #' score, with NAs stored at the end of the data set. For a description of 
 #' the Russell 3000 index, as well as why it was used for this package, 
-#' see \code{\link{companies}}. Last updated 10/10/2015.
+#' see \code{\link{companies}}. Last updated 2016/01/05.
 #' 
 #' The quality data set stores quality and component scores for the 
 #' various companies list in the \code{\link{companies}} data set. For 
@@ -21,7 +21,7 @@
 #' insufficient information exists to produce a quality score. More 
 #' details may be found on the technical vignette.
 #'
-#' @format A data frame with 2999 rows and 7 variables
+#' @format A data frame with approximately 3000 rows and 7 variables
 #' \itemize{
 #'    \item quality = class \code{"numeric"}.
 #'    \item profitability = class \code{"numeric"}.
