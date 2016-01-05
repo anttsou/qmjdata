@@ -4,7 +4,7 @@
 #' A data frame containing all annual financial statements (balancesheets,
 #' cashflows, and income statements) for the past four years if available.
 #' For a description of the Russell 3000 index, as well as why it was used
-#' for this package, see \code{\link{companies}}. Last updated 2015/01/05.
+#' for this package, see \code{\link{companies}}. Last updated 2016/01/05.
 #' 
 #' Some companies may store "weird" data, such as having information solely 
 #' for the years 1997-2001, or by having multiple annual reports within the
@@ -23,7 +23,7 @@
 #' recent four years of annual data, though this may vary based on 
 #' availability.
 #' 
-#' @format A data frame with 11,112 rows and 23 variables
+#' @format A data frame with approximately 12000 rows and 23 variables
 #'  \itemize{
 #'    \item AM = Amortization, of class \code{"character"}.
 #'    \item CWC = Changes in Working Capital, of class \code{"character"}.
