@@ -2,7 +2,7 @@
 #'
 #' Stores the names and tickers for all companies in the 
 #' Russell 3000 Index as of January 2015.The list from 
-#' which the data was culled was last updated 6/27/2014.
+#' which the data was culled was last updated 2015/06/26.
 #' 
 #' The Russell 3000 Index is an equity index that tracks 
 #' the performance of the "3000" (this number may actually 
