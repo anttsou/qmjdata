@@ -17,7 +17,7 @@
 #' which may cover one day or several depending on the company and 
 #' what day is being considered.
 #' 
-#' @format A data frame with 1,475,934 rows and 4 variables
+#' @format A data frame with roughly 1,500,000 rows and 4 variables
 #' \itemize{
 #'    \item ticker = Company ticker, of class \code{"character"}.
 #'    \item date = Date in format YYYY-MM-DD, of class \code{"character"}.
