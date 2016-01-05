@@ -4,7 +4,7 @@
 \name{quality}
 \alias{quality}
 \title{A dataframe of quality scores for companies listed in the Russell 3000}
-\format{A data frame with 2999 rows and 7 variables
+\format{A data frame with approximately 3000 rows and 7 variables
 \itemize{
    \item quality = class \code{"numeric"}.
    \item profitability = class \code{"numeric"}.
@@ -17,7 +17,7 @@ Displays overall quality scores as well as the scores for profitability,
 growth, safety, and payouts. Companies are sorted in order of quality
 score, with NAs stored at the end of the data set. For a description of
 the Russell 3000 index, as well as why it was used for this package,
-see \code{\link{companies}}. Last updated 10/10/2015.
+see \code{\link{companies}}. Last updated 2016/01/05.
 }
 \details{
 The quality data set stores quality and component scores for the
