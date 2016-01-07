@@ -21,7 +21,7 @@ Stores price returns and closing prices for the past two years
 the S&P 500 (uniquely taken from Yahoo finance), to serve as a
 benchmark. For a description of the Russell 3000 index, as well as
 why it was used for this package, see \code{\link{companies}}.
-Last updated 2016/01/05.
+Last updated 2016/01/06.
 }
 \details{
 Prices is used to calculate the safety score of companies, and
