@@ -31,16 +31,6 @@
 #'  }
 #'
 #' @name quality
-#' @seealso \code{\link{filter_companies}}
-#' @examples
-#' 
-#' head(qmjdata::quality,10)
-#' 
-#' temp <- qmjdata::quality
-#' 
-#' # remove NAs
-#' temp <- temp[!is.na(temp$quality),]
-#' tail(temp,10)
 #' @docType data
 #' @keywords data
 NULL

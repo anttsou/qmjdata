@@ -44,8 +44,6 @@ new_quality <- market_data(sub_comps, qmjdata::financials, qmjdata::prices)
 
 \code{\link{market_data}}
 
-\code{\link{market_safety}}
-
 \code{\link{get_prices}}
 
 \code{\link{tidy_prices}}

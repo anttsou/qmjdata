@@ -46,12 +46,6 @@
 #' @seealso \code{\link{tidyinfo}}
 #' @seealso \code{\link{get_prices}}
 #' @seealso \code{\link{tidy_prices}}
-#' @examples
-#' data(companies)
-#' data(financials)
-#' data(prices)
-#' sub_comps <- companies[50:51,]
-#' market_data(sub_comps, financials, prices)
 #' @docType data
 #' @keywords data
 NULL

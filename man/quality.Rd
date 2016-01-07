@@ -35,17 +35,5 @@ be calculated), then those scores are kept for that company, even if
 insufficient information exists to produce a quality score. More
 details may be found on the technical vignette.
 }
-\examples{
-head(qmjdata::quality,10)
-
-temp <- qmjdata::quality
-
-# remove NAs
-temp <- temp[!is.na(temp$quality),]
-tail(temp,10)
-}
-\seealso{
-\code{\link{filter_companies}}
-}
 \keyword{data}
 

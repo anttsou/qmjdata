@@ -47,13 +47,6 @@ and then formats data from the web. The Companies data set is the
 "base" data that produces financials, prices, and ultimately
 quality scores.
 }
-\examples{
-data(companies)
-data(financials)
-data(prices)
-sub_comps <- companies[50:51,]
-market_data(sub_comps, financials, prices)
-}
 \seealso{
 \code{\link{financials}}
 
