@@ -4,7 +4,7 @@
 #' A data frame containing all annual financial statements (balancesheets,
 #' cashflows, and income statements) for the past four years if available.
 #' For a description of the Russell 3000 index, as well as why it was used
-#' for this package, see \code{\link{companies}}. Last updated 2016/01/05.
+#' for this package, see \code{\link{companies}}. Last updated 2016/01/06.
 #' 
 #' Some companies may store "weird" data, such as having information solely 
 #' for the years 1997-2001, or by having multiple annual reports within the

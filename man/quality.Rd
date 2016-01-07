@@ -17,7 +17,7 @@ Displays overall quality scores as well as the scores for profitability,
 growth, safety, and payouts. Companies are sorted in order of quality
 score, with NAs stored at the end of the data set. For a description of
 the Russell 3000 index, as well as why it was used for this package,
-see \code{\link{companies}}. Last updated 2016/01/05.
+see \code{\link{companies}}. Last updated 2016/01/06.
 }
 \details{
 The quality data set stores quality and component scores for the
