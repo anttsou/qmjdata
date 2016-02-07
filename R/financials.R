@@ -58,14 +58,6 @@
 #' @name financials
 #' @seealso \code{\link{companies}}
 #' @seealso \code{\link{prices}}
-#' @seealso \code{\link{get_info}}
-#' @seealso \code{\link{tidyinfo}}
-#' @seealso \code{\link{market_data}}
-#' @examples
-#' financials <- qmjdata::financials
-#' prices <- qmjdata::prices
-#' sub_comps <- qmjdata::companies[50:51,]
-#' market_data(sub_comps, financials, prices)
 #' @docType data
 #' @keywords data
 NULL

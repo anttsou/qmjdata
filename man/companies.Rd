@@ -51,14 +51,6 @@ quality scores.
 \code{\link{financials}}
 
 \code{\link{prices}}
-
-\code{\link{get_info}}
-
-\code{\link{tidyinfo}}
-
-\code{\link{get_prices}}
-
-\code{\link{tidy_prices}}
 }
 \keyword{data}
 

@@ -28,12 +28,6 @@
 #' @name prices
 #' @seealso \code{\link{companies}}
 #' @seealso \code{\link{financials}}
-#' @seealso \code{\link{market_data}}
-#' @seealso \code{\link{get_prices}}
-#' @seealso \code{\link{tidy_prices}}
-#' @examples
-#' sub_comps <- qmjdata::companies[50:51,]
-#' new_quality <- market_data(sub_comps, qmjdata::financials, qmjdata::prices)
 #' @docType data
 #' @keywords data
 NULL

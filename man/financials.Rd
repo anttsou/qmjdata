@@ -62,22 +62,10 @@ company in order to calculate each of the quality component scores
 recent four years of annual data, though this may vary based on
 availability.
 }
-\examples{
-financials <- qmjdata::financials
-prices <- qmjdata::prices
-sub_comps <- qmjdata::companies[50:51,]
-market_data(sub_comps, financials, prices)
-}
 \seealso{
 \code{\link{companies}}
 
 \code{\link{prices}}
-
-\code{\link{get_info}}
-
-\code{\link{tidyinfo}}
-
-\code{\link{market_data}}
 }
 \keyword{data}
 

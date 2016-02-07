@@ -33,20 +33,10 @@ also calculated using two adjacent days in the dataset, a timespan
 which may cover one day or several depending on the company and
 what day is being considered.
 }
-\examples{
-sub_comps <- qmjdata::companies[50:51,]
-new_quality <- market_data(sub_comps, qmjdata::financials, qmjdata::prices)
-}
 \seealso{
 \code{\link{companies}}
 
 \code{\link{financials}}
-
-\code{\link{market_data}}
-
-\code{\link{get_prices}}
-
-\code{\link{tidy_prices}}
 }
 \keyword{data}
 

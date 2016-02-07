@@ -42,10 +42,6 @@
 #' @name companies
 #' @seealso \code{\link{financials}}
 #' @seealso \code{\link{prices}}
-#' @seealso \code{\link{get_info}}
-#' @seealso \code{\link{tidyinfo}}
-#' @seealso \code{\link{get_prices}}
-#' @seealso \code{\link{tidy_prices}}
 #' @docType data
 #' @keywords data
 NULL
